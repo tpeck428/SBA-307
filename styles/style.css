@@ -2,10 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #70A288;
+
+}
+
+.logo{
+    transition-property: font-size;
+
+}
+
+.logo:hover{
+    font-size: 50px;
 }
 
 .main{
     width: 100%;
+    background-color: #70A288;
 }
 
 h3{
@@ -66,10 +78,11 @@ ul {
     margin: 25px auto;
     display: block;
   }
-  
+
   .card-body {
     border: 1px solid black;
     width: 300px;
+    float: right;
  }
  
  .img-container img {
@@ -79,6 +92,36 @@ ul {
  
  .card-body p, .card-body h1 {
     margin: 8px;
+ }
+ .card-body2 {
+    border: 1px solid black;
+    width: 300px;
+ }
+ .card-body2 p, .card-body2 h1 {
+    margin: 8px;
+ }
+
+ table {
+    width: 50%;
+    text-align: center;
+    border: 2px black;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+ }
+ 
+ th, td {
+    border: 1px solid black;
+    height: 70px;
+    padding: 15px;
+    background-color: #DAB785;
+    
+ }
+ 
+ td:hover {
+    background-color: #70A288;
+    color: white;
  }
  
 
